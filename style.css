@@ -1,0 +1,96 @@
+h1{
+    align-items: center;
+    place-content: center;
+    padding-left: 600px;
+    margin: 40px ;
+    justify-content: center;
+    font-size: 6cap;
+}
+.box{
+    font-size: 20px;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.id{
+   padding-left: 650px;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 200;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+h2{
+    margin-bottom: 680px;
+    padding-left: 590px;
+    margin: 100px;
+    justify-content: center;
+    align-items: center;
+
+}
+.login{
+    padding-left: 670px;
+    margin: 20px;
+   border-radius: unset;
+   font-size: larger;
+   flex-grow: inherit;
+ flex-wrap: nowrap;
+ size-adjust: 20px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.sign{
+    padding-left: 20px;
+    padding-right: 50px;
+  margin-top: 20px;
+  font-size: 3cap;
+
+}
+   p{
+    padding-left: 650px;
+   }
+   .forgot{
+    margin: 20px;
+    padding-left: 650px;
+   }
+   .box:hover{
+    
+    color: rgb(139, 141, 139);
+    border-radius: 5px;
+    background-color:  rgb(166, 207, 105);
+
+   }
+   .pic{
+    background: transparent;
+    padding-left: 665px;
+    height: 130px;
+    width: 130px;
+   }
+   .pass{
+    border-radius: 5pt;
+   }
+   .container{
+    box-shadow: inset black ;
+    container-type: 20px solid ;
+    
+   
+   }
+ /* Mobile phones */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+/* Tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Desktops */
+@media only screen and (min-width: 1025px) {
+    body {
+        font-size: 18px;
+    }
+}
